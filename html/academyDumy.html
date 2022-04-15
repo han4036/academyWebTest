@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Insert title here</title>
+	<link rel="stylesheet"
+		href="../css/academyDumystyle.css"></link>
+	<meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.2/jquery-migrate.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="../js/academyDumy.js"></script>
+</head>
+<body>
+	
+	<!-- wrapper 영역 -->
+    <div id="wrapper">
+
+        <!-- 헤더 영역 -->
+       <div id="header">
+            <div class="logo">
+                <img class="logo1" src="../../img/logo13.png" usemap="#Map">
+                <!-- <map name="Map">
+                    <area shape="rect" coords="0,0,50,50" href="http://127.0.0.1:5500/html/academyDumy.html">
+                </map> -->
+
+            </div> 
+            
+            
+                <div class="navi">
+                    <ul>
+                        <li><a href="../html/notice.html" class="link">학원소개</a></li>
+                        <li><a href="../html/notice.html" class="link">OA과정</a></li>
+                        <li><a href="../html/notice.html" class="link">디자인과정</a></li>
+                        <li><a href="../html/notice.html" class="link">고객센터</a></li>
+                        <!-- <li><a href="#" class="link">About</a></li> -->
+                    </ul>
+                </div>
+            
+       </div>
+
+       <!-- 메인 화면 사진 영역 -->
+       <div class="slider">
+            
+            <div><img class="main_img" src="../img/학원카운터.jpg"></div>
+            <div><img class="main_img" src="../img/142.jpg"></div>
+            <!-- <div><img class="main_img" src="../img/디자인 과정1.jpg"></div> -->
+            
+            
+       </div>
+
+       <!-- 아래 세부 컨텐츠 영역 -->
+       <div id="section">
+           <!-- <div id="class-OA">
+                <p>실무 자격증 반</p>
+                <ul>
+                    <li><a href="#" class="classList">OA 마스터 과정</a></li>
+                    <li><a href="#" class="classList">컴퓨터 활용 능력</a></li>
+                </ul>
+           </div>
+
+           <div id="class-design">
+                <p>디자인 자격증 반</p>
+           </div> -->
+           <div class="class-list">
+               <img class="class-picture" src="../img/OA과정1.jpg">
+               <h2>컴퓨터 활용 능력</h2>
+               <p>산업관리인력공단에서 시행하는 국가기술자격으로 컴퓨터 일반, 스프레드시트(엑셀)
+                , 데이터베이스 등을 학습하고 자격시험에 응시하여 합격을 목표로 수업</p>
+           </div>
+           <div class="class-list">
+               <img class="class-picture" src="../img/123.jpg">
+               <h2>OA 마스터 과정</h2>
+               <p>한국생산성본부에서 시행하는 국가 기술자격으로 사무실무능력을 기준으로 등급화하여 자격을 부여함, 아래한글, 파워포인트, 엑셀, 엑세스, 인터넷 등의 기초부터 고급기능까지 학습하고 합격을 목표로 수업</p>
+           </div>
+
+           <div class="class-list">
+               <img class="class-picture" src="../img/설계과정1.jpg">
+               <h2>설계 과정</h2>
+               <p>전자, 컴퓨터 기술의 급속한 발전에 따라 컴퓨터를 이용한 설계 및 생산시스템이 광범위하게 이용되고 있는데, 산업현장에서 필요로 하는 설계분야의 기능인력을 효율적으로 양성하고자 하는 과정</p>
+           </div>
+           <div class="class-list">
+                <img class="class-picture" src="../img/디자인 과정1.jpg">
+                <h2>디자인 과정</h2>
+                <p>그래픽에 대한 시각정 판단 능력을 증진시키고, 시각화를 통한 커뮤니케이션을 원할하게 합니다. 더 나아가 웹코딩을 통해 전체적인 이미지를 결정한 후 레이아웃을 설계하고 메뉴, 서브 등 사이트를 시각적으로 설계방법</p>
+            </div>
+            <div class="class-list">
+                <img id="class-img4" class="class-picture" src="../img/영상편집 과정1.jpg">
+                <h2>영상 편집 과정</h2>
+                <p>영상 편집은 우리가 촬영한 영상의 원치 않는 부분을 지우고 원하는 부분을 분리하고 새로운 부분과 합성하고 정렬하고 타이틀 넣고 오디오등을 넣어 만들어진 결과물입니다.</p>
+            </div>
+       </div>
+
+       <!-- footer 영역 -->
+       <div id="footer">
+           <div class="footer-banner">
+
+           </div>
+           <div class="footer-info">
+               <img src="../img/logo13.png">
+                
+                <strong> PLUS IT DESIGN ACADEMY </strong>
+                <br>
+                <p class="com">대표 : 김태진&nbsp;&nbsp;&nbsp;&nbsp;
+                   전화번호 : 010-8222-0909&nbsp;&nbsp;&nbsp;&nbsp;
+                   사업자번호 : 126-91-68014&nbsp;&nbsp;&nbsp;&nbsp;
+                   주소 : 경기도 이천시 장호원읍 샘재로 136, 2층<br></p>
+                <p class="com1">COPYRIGHT(C) PLUS IT ACADEMY All rights reserved</p>
+                
+            </div>
+       </div>
+    </div>  
+	
+</body>
+</html>
